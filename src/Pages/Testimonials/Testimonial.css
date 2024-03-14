@@ -1,11 +1,21 @@
 .testimony{
    
-    margin-left: 100px;
+    margin-left: 60px;
 }   
-    
-    
-    
+.testimony-container {
+color: #394d3e;   
+width: 100%;
+height:auto;
+display: grid;
+justify-content: center;
+align-items: center;
+  
+}
 
+.testimony-container h1{
+  font-size: 50px;
+  margin-top: 25px;
+}
 .testimony-grid {
     
     flex-wrap: wrap;
@@ -61,9 +71,27 @@
     color: #394d3e;
     margin: 0;
   }
+  .testimonial_footer{
+    margin-top: 50px;
+    background-color: #e6e2e2;
+    width: 100%;
+    height: 100px;
+    float: left;
+  }
   
-  @media only screen and (max-width: 576) {
+  @media(max-width:576px) {
+    
     .testimony-card {
-      margin: 5px;
+      gap: 10px;
+    }
+    .testimony-container{
+      margin-left: 50px;
+    }
+    .testimony-container h1{
+      font-size: 25px;
+    }
+    .testimonial_footer{
+      width: 130vw;
+      
     }
 }

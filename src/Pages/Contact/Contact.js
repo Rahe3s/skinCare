@@ -50,7 +50,7 @@ function Conatct() {
          
     
         </div>
-        <div className='product_footer'>
+        <div className='contact_footer'>
 
     </div>
     </section>

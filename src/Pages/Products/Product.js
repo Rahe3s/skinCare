@@ -8,12 +8,6 @@ function Product() {
       <div className="product_header">
       <h1>Our Products</h1>
       </div>
-
-      
-    
-      
-
-    
     <div className="product_list">
       {products.map(({img,product_name,price},index)=>{
         return(

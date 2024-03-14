@@ -5,7 +5,8 @@ function Testimonial() {
   return (
     <section id='testimony' className='testimony'>
     <div className='testimony-container'>
-    <h1>TESTIMONIALS</h1>
+    <h1>Testimonials</h1>
+    </div>
     <div className='testimony-grid'>
         {testimony.map(testimony => (
             <div key={testimony.id} className="testimony-card">
@@ -18,8 +19,11 @@ function Testimonial() {
                 </div>
             </div>
         ))}
-    </div>
+    
 </div>
+<div className='testimonial_footer'>
+
+    </div>
 </section>
 );
 };

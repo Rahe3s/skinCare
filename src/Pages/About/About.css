@@ -36,6 +36,7 @@
 @media(max-width:576px){
     .about{
         margin-left: 50px;
+        width: 130vw;
     }
     .aboutContent{
         padding: 50px;

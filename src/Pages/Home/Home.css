@@ -20,5 +20,6 @@
 @media(max-width:576px){
     .home{
         margin-left: 50px;
+        width: 130vw;
     }
 }

@@ -56,10 +56,16 @@
     float: left;
 }
 @media(max-width:576px){
+    .product{
+        width: 110vw;
+        
+    }
     .product_header h1{
         font-size: 25px;
     }
-    
+    .product_list{
+        margin-left: 75px;
+    }
     .product_card{
         width: 120px;
         height: 300px;
@@ -70,6 +76,9 @@
     }
     .product_card h2{
         font-size: auto;
+    }
+    .product_footer{
+        width: 130vw;
     }
 }
 
